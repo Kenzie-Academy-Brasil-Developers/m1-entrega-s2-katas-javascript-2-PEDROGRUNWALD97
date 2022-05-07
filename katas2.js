@@ -12,6 +12,7 @@ function multiply(x, y) {
     for (let i = 1; i <= y; i++) {
         resultado = add(resultado, x)
     }
+    return resultado
 }
 console.log(multiply(4,6))
 // descomente a linha seguinte para testar sua função
@@ -20,7 +21,7 @@ console.log(multiply(4,6))
 // comece a criar a sua função power na linha abaixo
 function power(x, z) {
     let resultado = 1
-    for (let i = 1; i <= n; i++) {
+    for (let i = 1; i <= z; i++) {
         resultado = multiply(x, resultado)
     }
     return resultado
